@@ -146,7 +146,6 @@ export default function DiscoverDailySetup() {
     async function init() {
       await getUserState();
     }
-
     init();
   }, []);
 
