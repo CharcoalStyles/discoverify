@@ -11,6 +11,7 @@ import DiscoverDailyStripeError from './DiscoverDaily/StripeError';
 import DiscoverDailyStripeSuccess from './DiscoverDaily/StripeSuccess';
 import './index.css';
 
+
 function App() {
   document.title = 'Discoverify';
 

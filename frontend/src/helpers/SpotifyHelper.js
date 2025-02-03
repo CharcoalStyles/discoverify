@@ -1,5 +1,5 @@
 /* eslint-disable no-restricted-syntax */
-require('dotenv').config();
+// require('dotenv').config();
 
 const CLIENT_ID = process.env.REACT_APP_DISCOVER_DAILY_API_CLIENT_ID;
 

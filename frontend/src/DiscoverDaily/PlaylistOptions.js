@@ -1,8 +1,3 @@
-/* eslint-disable react/button-has-type */
-/* eslint-disable react/destructuring-assignment */
-/* eslint-disable react/prop-types */
-/* eslint-disable react/jsx-props-no-spreading */
-/* eslint-disable camelcase */
 import React, { useEffect, useState, useRef } from 'react';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
@@ -24,8 +19,7 @@ import { images } from './images';
 
 import './discoverDaily.scss';
 
-// eslint-disable-next-line no-unused-vars
-const useStyles = makeStyles((theme) => ({
+const useStyles = makeStyles(() => ({
   root: {
     width: 'max-content',
   },
@@ -254,7 +248,6 @@ export default function DiscoverDailyPlaylistOptions() {
     handleResize();
 
     init();
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   const restoreDefaults = async () => {
